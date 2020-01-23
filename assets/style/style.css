@@ -1,0 +1,351 @@
+body {
+  background: rgb(250, 250, 210);
+  /*font-family: Amatic SC;/*Palatino Linotype;*/
+  width: 70%;
+  margin: 0 auto;
+}
+
+.font_large {
+  font-size: 22px;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;  
+  border-left: 7px solid Tomato;
+  display: inline-block;
+}
+
+/* --- header --- */
+header {
+  font-family: Amatic SC;/*Book Antiqua;*/
+  font-size: 200px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+}
+
+header p {
+  font-size: 32px;
+  padding-top: 55px;
+}
+
+#main_heading_image {
+  background-image: url('../image/Hong_Kong_at_night.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 2px 4px 6px rgb(32,19,16);
+  margin-bottom: 20px;
+}	
+
+#sub_heading_image {
+  background-image: url('../image/Hong_Kong_panoramic.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 2px 4px 6px rgb(32,19,16);
+  margin-bottom: 20px;
+} 
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 20px;
+  align-items: right;
+}
+li {
+  display: inline-block;
+}
+/* Add a black background color to the top navigation */
+nav.topnav-left {
+  font-family: 'Amatic SC';
+  font-size: 24px;
+  /*float: left;*/
+  display: inline-block;
+}
+
+/* Right-aligned section inside the top navigation */
+nav.topnav-right {
+  font-family: 'Amatic SC';
+  font-size: 24px;
+  /*float: right;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure .overlay {
+  background-color: rgba(18,18,18,0.75);
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Amatic SC';
+  font-size: 16px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+figure button {
+  color: white;
+  background-color: #2e3b2b;
+  border: none;
+  width: 100px;
+  margin-right: 10px;
+  font-family: 'Amatic SC';
+  font-size: 18px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: auto; 
+  font-size: 20px;  
+}*/
+#article_title {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#article_title img {
+  width: 80px;
+  height: 80px;
+}
+
+#article_title p {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+#article {
+  font-family: Pontano Sans;
+  display: flex;
+  flex-direction: column;
+  margin: 0px, 15px;
+  padding: 0px, 15px;
+}
+
+/*--- Aside ---*/
+#self_intro {
+  font-family: 'Amatic SC';
+  text-align: center;
+  color: black;
+  background-color: Snow;
+  border-radius: 5px;
+  margin: 15px, 15px;
+  padding: 15px, 15px;
+  box-shadow: 2px 4px 6px rgb(32,19,16);
+}
+
+#self_intro img {
+  margin: 5px auto;
+  width: 200px;
+  margin: 0px, 15px;
+  padding: 0px, 15px;
+  height: auto;
+}
+
+
+.ft-payment {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*padding-left: 15px;*/
+}
+
+.ft-payment i {
+  font-size: 40px;
+  /*background-color: white;*/
+}
+
+/*--- Footer ---*/
+/*footer {
+  display: flex;
+  flex-direction: row;
+}*/
+
+/*.flex-container {
+  display: flex;
+  font-family: Pontano Sans;
+}*/
+
+/*.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  /*font-size: 30px;*/
+
+
+.tweets {
+  padding: 10px 0px;
+}
+.pictures {
+  padding: 10px 0px;
+}
+.pictures img {
+  width: 60px;
+  height: 40px;
+}
+
+.friends {
+  font-size: 10px;
+  padding: 10px 0px;
+}
+
+
+/* --- for large devices --- */
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/* --- for medium devices --- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* --- for small devices --- */
+@media (max-width: 991px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+  .col-sm-7, .col-sm-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width:  91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
