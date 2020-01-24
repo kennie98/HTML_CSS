@@ -117,23 +117,23 @@ figure button {
   cursor: pointer;
 }
 
-#article_title {
+#article_title, #resume_title, #contact_title {
   display: flex;
   flex-direction: row;
   margin: 10px;
 }
 
-#article_title img {
+#article_title img, #resume_title img, #contact_title img {
   width: 80px;
   height: 80px;
 }
 
-#article_title p {
+#article_title p, #resume_title p, #contact_title p {
   font-size: 32px;
   padding-top: 10px;
 }
 
-#article {
+#article, #resume, #contact {
   font-family: Pontano Sans;
   display: flex;
   flex-direction: column;
@@ -141,7 +141,7 @@ figure button {
   padding: 0px, 15px;
 }
 
-div > p, hr {
+div > p, hr, legend {
   margin-bottom: 1em;
 }
 
