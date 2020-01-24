@@ -87,7 +87,6 @@ nav.topnav-left {
 nav.topnav-right {
   font-family: 'Amatic SC';
   font-size: 24px;
-  /*float: right;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,14 +118,6 @@ figure button {
   cursor: pointer;
 }
 
-/*section {
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  margin: auto; 
-  font-size: 20px;  
-}*/
 #article_title {
   display: flex;
   flex-direction: row;
@@ -164,44 +155,23 @@ figure button {
 }
 
 #self_intro img {
+  width: 200px;  
   margin: 5px auto;
-  width: 200px;
-  margin: 0px, 15px;
   padding: 0px, 15px;
   height: auto;
 }
 
-
 .ft-payment {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
-  /*padding-left: 15px;*/
 }
 
 .ft-payment i {
   font-size: 40px;
-  /*background-color: white;*/
 }
-
-/*--- Footer ---*/
-/*footer {
-  display: flex;
-  flex-direction: row;
-}*/
-
-/*.flex-container {
-  display: flex;
-  font-family: Pontano Sans;
-}*/
-
-/*.flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  /*font-size: 30px;*/
-
 
 .tweets {
   padding: 10px 0px;
