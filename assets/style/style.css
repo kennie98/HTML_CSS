@@ -1,6 +1,5 @@
 body {
-  background: rgb(250, 250, 210);
-  /*font-family: Amatic SC;/*Palatino Linotype;*/
+  background: PowderBlue; /*rgb(250, 250, 210);*/
   width: 70%;
   margin: 0 auto;
 }
@@ -142,6 +141,10 @@ figure button {
   padding: 0px, 15px;
 }
 
+div > p, hr {
+  margin-bottom: 1em;
+}
+
 /*--- Aside ---*/
 #self_intro {
   font-family: 'Amatic SC';
@@ -171,6 +174,11 @@ figure button {
 
 .ft-payment i {
   font-size: 40px;
+}
+
+/*--- Footer ---*/
+footer {
+  font-family: Pontano Sans;
 }
 
 .tweets {

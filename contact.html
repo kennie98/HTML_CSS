@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./assets/style/reset.css" type="text/css">
   <link rel="stylesheet" href="./assets/style/style.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Courgette|Dancing+Script|Great+Vibes|Kalam|Sacramento|Satisfy|Pontano+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -14,47 +15,60 @@
       <img src="./assets/image/snail.png" alt="snail">
       <p style = "font-family: Sacramento"><b>Ken</b></p>
 	</header>
-
-	<div>
-		<nav class="topnav-left">
+	<nav class="topnav-left col-sm-12 col-lg-9">
 		Ken's Travel Blog
+	</nav>
+	<nav class="topnav-right col-sm-12 col-lg-3">
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./resume.html">RESUME</a></li> 
+      <li><a href="./contact.html">CONTACT</a></li>
 		</nav>
-		<nav class="topnav-right">
-			<li><a href="./index.html">HOME</a></li>
-			<li><a href="./resume.html">RESUME</a></li>	
-			<li><a href="./contact.html">CONTACT</a></li>
-		</nav>
-	</div>
 	<hr>
 	<!------------------ Heading_Image ---------------->
-	<figure id="sub_heading_image">
+	<figure id="sub_heading_image" class="col-sm-12 col-md-12 col-lg-12">
       <div class="overlay">
         <p>Hong Kong Vitorial Harbour -- Another View Angle</p>
-        <button class="button storyButton"onclick="alert('Under Construction!')">STORY<i class="arrow right" style="color:white;"></i></button>
+        <button onclick="alert('Under Construction!')">STORY&nbsp;&nbsp;<div class="arrow-right" style = "border-left: 7px solid white;"></div></button>
       </div>
     </figure>
 
     <!------------------ Article ---------------->
 	<section>
 
-		<h1>CONTACT</h1>
+    	<h1>RESUME</h1>
 
 	</section>
-	<hr>
 
-	<foodter>
-      <div class="tweets">
-        <p class="font_large">MY LAST TWEET</p><br>
-        <p>No More Tweets!!!</p><br>
-        <p>01/22 01:06</p><br>
-      </div>
-      <div class="pictures">
-        <p class="font_large">MY PICTURES</p><br>
-        <img src="./assets/image/vic1.jpg" alt="Victoria Harbour 1">
-        <img src="./assets/image/vic2.jpg" alt="Victoria Harbour 2">
-        <img src="./assets/image/vic3.jpg" alt="Victoria Harbour 3">
-        <img src="./assets/image/vic4.jpg" alt="Twelve Apostles">
-      </div>
+	<footer class="col-sm-12 col-md-12 col-lg-12">
+		<hr>		
+		<div class="flex-container">
+	      	<div class="tweets col-sm-12 col-md-4 col-lg-4">
+	        	<p class="font_large">MY LAST TWEET</p><br>
+	        	<p>Hello World!</p><br>
+	        	<p>01/22 01:06</p><br>
+	      	</div>
+	      	<div class="pictures col-sm-12 col-md-4 col-lg-4">
+	        	<p class="font_large">MY PICTURES</p><br>
+	        	<img src="./assets/image/vic1.jpg" alt="Victoria Harbour 1">
+	        	<img src="./assets/image/vic2.jpg" alt="Victoria Harbour 2">
+	        	<img src="./assets/image/vic3.jpg" alt="Victoria Harbour 3">
+	        	<img src="./assets/image/vic4.jpg" alt="Twelve Apostles">
+	      	</div>
+	      	<div class="friends col-sm-12 col-md-4 col-lg-4">
+	        	<p class="font_large">MY FRIENDS</p><br>
+	        	<ul class="col-sm-12 col-md-6 col-lg-6">
+		          <li><div class="arrow-right"></div>&nbsp;Winnie the Pork</li>
+		          <li><div class="arrow-right"></div>&nbsp;Pocahontas</li>
+		          <li><div class="arrow-right"></div>&nbsp;Mulan</li>
+		        </ul>
+		        <ul class="col-sm-12 col-md-6 col-lg-6">
+		          <li><div class="arrow-right"></div>&nbsp;Cinderella</li>
+		          <li><div class="arrow-right"></div>&nbsp;Snow White</li>
+		          <li><div class="arrow-right"></div>&nbsp;Tinker Bell</li>
+		        </ul>
+	      	</div>
+		</div>
+
 	</footer>
 </body>
 </html>
