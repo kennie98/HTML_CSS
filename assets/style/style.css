@@ -144,7 +144,12 @@ figure button {
   padding: 0px, 15px;
 }
 
-div > p, hr, legend {
+div > p{
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+hr, legend {
   margin-bottom: 1em;
 }
 
